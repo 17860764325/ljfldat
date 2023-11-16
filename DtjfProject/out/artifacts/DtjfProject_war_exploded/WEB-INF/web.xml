@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>Regist</servlet-name>
+        <servlet-class>com.sq.register.StudentRegist</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Regist</servlet-name>
+        <url-pattern>/Regist</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>XXPHB</servlet-name>
+        <servlet-class>com.sq.paiming.XueXiaoPHB</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>XXPHB</servlet-name>
+        <url-pattern>/XXPHB</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>com.sq.login.LoginServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Aregist</servlet-name>
+        <servlet-class>com.sq.register.AdultRegist</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Aregist</servlet-name>
+        <url-pattern>/Aregist</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>adult_regist1</servlet-name>
+        <servlet-class>com.sq.register.Regisst1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>adult_regist1</servlet-name>
+        <url-pattern>/adult_regist1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>student_regist2</servlet-name>
+        <servlet-class>com.sq.register.Reigist2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>student_regist2</servlet-name>
+        <url-pattern>/student_regist2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShopList</servlet-name>
+        <servlet-class>com.sq.shop.ShopListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShopList</servlet-name>
+        <url-pattern>/ShopList</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>ShopBuy</servlet-name>
+    <servlet-class>com.sq.shop.ShopBuy</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>ShopBuy</servlet-name>
+        <url-pattern>/ShopBuy</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserBuy</servlet-name>
+        <servlet-class>com.sq.shop.UserBuyShop</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserBuy</servlet-name>
+        <url-pattern>/UserBuy</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MyshopList</servlet-name>
+        <servlet-class>com.sq.shop.MyshopLsit</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyshopList</servlet-name>
+        <url-pattern>/MyshopList</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RgistV</servlet-name>
+        <servlet-class>com.sq.register.RegistVerification</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RgistV</servlet-name>
+        <url-pattern>/RegistV</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    <servlet-name>DtList</servlet-name>
+    <servlet-class>com.sq.dtlist.DtList</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>DtList</servlet-name>
+        <url-pattern>/DtList</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DtRequest</servlet-name>
+        <servlet-class>com.sq.dtlist.DtRequest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DtRequest</servlet-name>
+        <url-pattern>/DtRequest</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Dtchance</servlet-name>
+        <servlet-class>com.sq.dtlist.DtChance</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Dtchance</servlet-name>
+        <url-pattern>/Dtchance</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AllNumber</servlet-name>
+        <servlet-class>com.sq.allnumber.AllNumber</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AllNumber</servlet-name>
+        <url-pattern>/AllNumber</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MyNumber</servlet-name>
+        <servlet-class>com.sq.paiming.MyNumber</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyNumber</servlet-name>
+        <url-pattern>/MyNumber</url-pattern>
+    </servlet-mapping>
+
+</web-app>

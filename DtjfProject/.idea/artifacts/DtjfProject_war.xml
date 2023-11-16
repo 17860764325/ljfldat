@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="DtjfProject:war">
+    <output-path>$PROJECT_DIR$/..</output-path>
+    <root id="archive" name="DtjfProject_war.war">
+      <element id="artifact" artifact-name="DtjfProject:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.11" />
+          <element id="library" level="project" name="gson-2.8.0" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.11 (2)" />
+          <element id="library" level="project" name="mchange-commons-java-0.2.19" />
+          <element id="library" level="project" name="c3p0-oracle-thin-extras-0.9.5.5" />
+          <element id="library" level="project" name="c3p0-0.9.5.5" />
+          <element id="library" level="project" name="log4j-1.2-api-2.14.0" />
+          <element id="library" level="project" name="log4j-api-2.14.0" />
+          <element id="library" level="project" name="log4j-core-2.14.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
